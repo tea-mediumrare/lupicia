@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <!--[if IE 7]>
-<html class="ie ie7" lang="en-US">
+<html class="ie ie7" lang="en-US" style="font-size: 14px">
 <![endif]-->
 <!--[if IE 8]>
-<html class="ie ie8" lang="en-US">
+<html class="ie ie8" lang="en-US" style="font-size: 14px">
 <![endif]-->
 <!--[if !(IE 7) | !(IE 8) ]><!-->
 <html lang="en-US" style="font-size: 14px">
@@ -158,6 +158,11 @@
 	button {
 		margin: 3px;
 	}
+	p.introduction {
+		display: block;
+		clear: both;
+		font-size: 1.2rem;
+	}
   </style>
  </head>
  <body>
@@ -192,57 +197,69 @@
      </a>
     </li>
    </ul>
-   <p>
+   <p class="introduction">
     매일 새벽 루피시아 홈페이지를 탐험하며 판매 상태와 가격등을 업데이트하는 메뉴판 형식의 루피시아 상품 리스트입니다.
-업데이트는 한국시각으로 매일 새벽 4~5시에 이루어집니다. 상품코드, 제품명, 제품형태와 가격, 기타정보들이 표시됩니다.
-제품형태별로 옆에 적힌 작은 @20250101 을 통해 상품정보가 갱신된 날짜를 알 수 있습니다.
-큰 카테고리는 아래의 버튼을 클릭하여 필터링 할 수 있으며 모든 정보는 텍스트 검색이 가능하므로 전체보기에서 검색으로 이동하셔도 좋습니다.
-지역한정의 상세한 판매 위지는
+    <br/>
+    업데이트는 한국시각으로 매일 새벽 4~5시에 이루어집니다. 상품코드, 제품명, 제품형태와 가격, 기타정보들이 표시됩니다.
+    <br/>
+    제품형태별로 옆에 적힌 작은 @20250101 을 통해 상품정보가 갱신된 날짜를 알 수 있습니다.
+    <br/>
+    제품형태와 가격에
+    <del>
+     취소선
+    </del>
+    이 가있는 경우 일시 혹은 영구 품절입니다. 상세 정보를 확인 바랍니다.
+    <br/>
+    큰 카테고리는 아래의 버튼을 클릭하여 필터링 할 수 있으며 모든 정보는 텍스트 검색이 가능하므로 전체보기에서 검색으로 이동하셔도 좋습니다.
+    <br/>
+    지역한정의 상세한 판매 위지는
     <a href="https://www.lupicia.co.jp/shop/jp/" target="_blank">
      점포안내
     </a>
     에서 품목번호로 검색 바랍니다.
-일본여행이나 지인에게 심부름 부탁할때와 같은 빠른 검색과 사용이 필요한 경우를 위해 제작하였습니다.
-그 외의 용도에도 아무쪼록 사용하여 주십시오. 감사합니다.
+    <br/>
+    일본여행이나 지인에게 심부름 부탁할때와 같은 빠른 검색과 사용이 필요한 경우를 위해 제작하였습니다.
+    <br/>
+    그 외의 용도에도 아무쪼록 사용하여 주십시오. 감사합니다.
    </p>
    <div id="toggleButtons">
-    <button class="all">
+    <button class="all" style="opacity: 1">
      전체보기
     </button>
-    <button class="new_item">
+    <button class="new_item" style="opacity: 0.5">
      신규
     </button>
-    <button class="seasonal_item">
+    <button class="seasonal_item" style="opacity: 0.5">
      수량한정
     </button>
-    <button class="limited_item">
+    <button class="limited_item" style="opacity: 0.5">
      통신판매한정
     </button>
-    <button class="seasonal_limit_item">
+    <button class="seasonal_limit_item" style="opacity: 0.5">
      계절한정
     </button>
-    <button class="local_limit_item">
+    <button class="local_limit_item" style="opacity: 0.5">
      지역한정
     </button>
-    <button class="milk_item">
+    <button class="milk_item" style="opacity: 0.5">
      밀크티 추천
     </button>
-    <button class="lemon_item">
+    <button class="lemon_item" style="opacity: 0.5">
      레몬티 추천
     </button>
-    <button class="ice_item">
+    <button class="ice_item" style="opacity: 0.5">
      아이스티 추천
     </button>
-    <button class="lowcaf_item">
+    <button class="lowcaf_item" style="opacity: 0.5">
      로우카페인 티
     </button>
-    <button class="noncaf_item">
+    <button class="noncaf_item" style="opacity: 0.5">
      논카페인 티
     </button>
-    <button class="child_item">
+    <button class="child_item" style="opacity: 0.5">
      유아용추천
     </button>
-    <button class="off_line_item">
+    <button class="off_line_item" style="opacity: 0.5">
      매장전용
     </button>
    </div>
@@ -257,7 +274,7 @@
                     element.style.display = element.style.display = '';
                 });
                 document.querySelectorAll(`#toggleButtons button`).forEach(element => {
-                    element.style.opacity = 0.6;
+                    element.style.opacity = 0.5;
                 });
                 document.querySelectorAll(`#toggleButtons button.${className}`).forEach(element => {
                     element.style.opacity = 1;
