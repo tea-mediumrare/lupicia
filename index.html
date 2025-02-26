@@ -155,6 +155,9 @@
 	#outoflist .productype a {
 		text-decoration : line-through;
 	}
+	button {
+		margin: 3px;
+	}
   </style>
  </head>
  <body>
@@ -189,9 +192,37 @@
      </a>
     </li>
    </ul>
+   <p>
+    매일 새벽 루피시아 홈페이지를 탐험하며 판매 상태와 가격등을 업데이트하는 메뉴판 형식의 루피시아 상품 리스트입니다.
+업데이트는 한국시각으로 매일 새벽 4~5시에 이루어집니다. 상품코드, 제품명, 제품형태와 가격, 기타정보들이 표시됩니다.
+제품형태별로 옆에 적힌 작은 @20250101 을 통해 상품정보가 갱신된 날짜를 알 수 있습니다.
+큰 카테고리는 아래의 버튼을 클릭하여 필터링 할 수 있으며 모든 정보는 텍스트 검색이 가능하므로 전체보기에서 검색으로 이동하셔도 좋습니다.
+지역한정의 상세한 판매 위지는
+    <a href="https://www.lupicia.co.jp/shop/jp/" target="_blank">
+     점포안내
+    </a>
+    에서 품목번호로 검색 바랍니다.
+일본여행이나 지인에게 심부름 부탁할때와 같은 빠른 검색과 사용이 필요한 경우를 위해 제작하였습니다.
+그 외의 용도에도 아무쪼록 사용하여 주십시오. 감사합니다.
+   </p>
    <div id="toggleButtons">
     <button class="all">
      전체보기
+    </button>
+    <button class="new_item">
+     신규
+    </button>
+    <button class="seasonal_item">
+     수량한정
+    </button>
+    <button class="limited_item">
+     통신판매한정
+    </button>
+    <button class="seasonal_limit_item">
+     계절한정
+    </button>
+    <button class="local_limit_item">
+     지역한정
     </button>
     <button class="milk_item">
      밀크티 추천
@@ -211,21 +242,6 @@
     <button class="child_item">
      유아용추천
     </button>
-    <button class="new_item">
-     신규
-    </button>
-    <button class="seasonal_item">
-     수량한정
-    </button>
-    <button class="limited_item">
-     통신판매한정
-    </button>
-    <button class="seasonal_limit_item">
-     계절한정
-    </button>
-    <button class="local_limit_item">
-     지역한정
-    </button>
     <button class="off_line_item">
      매장전용
     </button>
@@ -243,7 +259,7 @@
                 document.querySelectorAll(`#toggleButtons button`).forEach(element => {
                     element.style.opacity = 0.6;
                 });
-                document.querySelectorAll(`#toggleButtons.${className}`).forEach(element => {
+                document.querySelectorAll(`#toggleButtons button.${className}`).forEach(element => {
                     element.style.opacity = 1;
                 });
                 
