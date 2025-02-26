@@ -190,37 +190,52 @@
     </li>
    </ul>
    <div id="toggleButtons">
-    <button data-class="local_limit">
-     Toggle Local Limit
+    <button data-class="milk_item">
+     밀크티 추천
     </button>
-    <button data-class="milk">
-     Toggle Milk
+    <button data-class="lemon_item">
+     레몬티 추천
     </button>
-    <button data-class="ice">
-     Toggle Ice
+    <button data-class="ice_item">
+     아이스티 추천
     </button>
-    <button data-class="lowcaf">
-     Toggle LowCaf
+    <button data-class="lowcaf_item">
+     로우카페인 티
     </button>
-    <button data-class="child">
-     Toggle Child
+    <button data-class="noncaf_item">
+     논카페인 티
     </button>
-    <button data-class="noncaf">
-     Toggle NonCaf
+    <button data-class="child_item">
+     유아용추천
     </button>
-    <button data-class="seasonal">
-     Toggle Seasonal
+    <button data-class="new_item">
+     신규
     </button>
-    <button data-class="limited">
-     Toggle Limited
+    <button data-class="seasonal_item">
+     수량한정
+    </button>
+    <button data-class="limited_item">
+     통신판매한정
+    </button>
+    <button data-class="seasonal_limit_item">
+     계절한정
+    </button>
+    <button data-class="local_limit_item">
+     지역한정
+    </button>
+    <button data-class="off_line_item">
+     매장전용
     </button>
    </div>
    <script>
     document.querySelectorAll('#toggleButtons button').forEach(button => {
             button.addEventListener('click', function() {
                 const className = this.getAttribute('data-class');
+                document.querySelectorAll(`.itemline`).forEach(element => {
+                    element.style.display = element.style.display = 'None';
+                });
                 document.querySelectorAll(`.itemline.${className}`).forEach(element => {
-                    element.style.display = element.style.display === 'none' ? '' : 'none';
+                    element.style.display = element.style.display = '';
                 });
             });
         });
