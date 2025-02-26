@@ -189,6 +189,42 @@
      </a>
     </li>
    </ul>
+   <div id="toggleButtons">
+    <button data-class="local_limit">
+     Toggle Local Limit
+    </button>
+    <button data-class="milk">
+     Toggle Milk
+    </button>
+    <button data-class="ice">
+     Toggle Ice
+    </button>
+    <button data-class="lowcaf">
+     Toggle LowCaf
+    </button>
+    <button data-class="child">
+     Toggle Child
+    </button>
+    <button data-class="noncaf">
+     Toggle NonCaf
+    </button>
+    <button data-class="seasonal">
+     Toggle Seasonal
+    </button>
+    <button data-class="limited">
+     Toggle Limited
+    </button>
+   </div>
+   <script>
+    document.querySelectorAll('#toggleButtons button').forEach(button => {
+            button.addEventListener('click', function() {
+                const className = this.getAttribute('data-class');
+                document.querySelectorAll(`.itemline.${className}`).forEach(element => {
+                    element.style.display = element.style.display === 'none' ? '' : 'none';
+                });
+            });
+        });
+   </script>
    <h2>
     Tea List
    </h2>
