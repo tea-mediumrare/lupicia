@@ -161,7 +161,12 @@
 	p.introduction {
 		display: block;
 		clear: both;
-		font-size: 1.2rem;
+		font-size: 1.1rem;
+		line-height: 1.3rem;
+	}
+	button {
+		font-weight: bold;
+		font-size: 1.3rem;
 	}
   </style>
  </head>
@@ -226,40 +231,40 @@
     <button class="all" style="opacity: 1">
      전체보기
     </button>
-    <button class="new_item" style="opacity: 0.5">
+    <button class="new_item" style="opacity: 0.6">
      신규
     </button>
-    <button class="seasonal_item" style="opacity: 0.5">
+    <button class="seasonal_item" style="opacity: 0.6">
      수량한정
     </button>
-    <button class="limited_item" style="opacity: 0.5">
+    <button class="limited_item" style="opacity: 0.6">
      통신판매한정
     </button>
-    <button class="seasonal_limit_item" style="opacity: 0.5">
+    <button class="seasonal_limit_item" style="opacity: 0.6">
      계절한정
     </button>
-    <button class="local_limit_item" style="opacity: 0.5">
+    <button class="local_limit_item" style="opacity: 0.6">
      지역한정
     </button>
-    <button class="milk_item" style="opacity: 0.5">
+    <button class="milk_item" style="opacity: 0.6">
      밀크티 추천
     </button>
-    <button class="lemon_item" style="opacity: 0.5">
+    <button class="lemon_item" style="opacity: 0.6">
      레몬티 추천
     </button>
-    <button class="ice_item" style="opacity: 0.5">
+    <button class="ice_item" style="opacity: 0.6">
      아이스티 추천
     </button>
-    <button class="lowcaf_item" style="opacity: 0.5">
+    <button class="lowcaf_item" style="opacity: 0.6">
      로우카페인 티
     </button>
-    <button class="noncaf_item" style="opacity: 0.5">
+    <button class="noncaf_item" style="opacity: 0.6">
      논카페인 티
     </button>
-    <button class="child_item" style="opacity: 0.5">
+    <button class="child_item" style="opacity: 0.6">
      유아용추천
     </button>
-    <button class="off_line_item" style="opacity: 0.5">
+    <button class="off_line_item" style="opacity: 0.6">
      매장전용
     </button>
    </div>
@@ -274,7 +279,7 @@
                     element.style.display = element.style.display = '';
                 });
                 document.querySelectorAll(`#toggleButtons button`).forEach(element => {
-                    element.style.opacity = 0.5;
+                    element.style.opacity = 0.6;
                 });
                 document.querySelectorAll(`#toggleButtons button.${className}`).forEach(element => {
                     element.style.opacity = 1;
