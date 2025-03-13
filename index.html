@@ -271,31 +271,32 @@
    </div>
    <script>
     document.querySelectorAll('#toggleButtons button').forEach(button => {
-            button.addEventListener('click', function() {
-                const className = this.getAttribute('class');
-                document.querySelectorAll(`.itemline`).forEach(element => {
-                    element.style.display = element.style.display = 'None';
-                });
-                document.querySelectorAll(`.itemline.${className}`).forEach(element => {
-                    element.style.display = element.style.display = '';
-                });
-                document.querySelectorAll(`#toggleButtons button`).forEach(element => {
-                    element.style.opacity = 0.5;
-                });
-                document.querySelectorAll(`#toggleButtons button.${className}`).forEach(element => {
-                    element.style.opacity = 1;
-                });
-                
-            });
-        });
-        document.querySelectorAll('.copyButton').addEventListener('click', function() {
-        const textToCopy = this.getAttribute('copytext');
-        navigator.clipboard.writeText(textToCopy).then(function() {
-            alert(textToCopy+' copied to clipboard');
-        }, function(err) {
-            alert('Failed to copy text: ', err);
-        });
-    });
+		button.addEventListener('click', function() {
+			const className = this.getAttribute('class');
+			document.querySelectorAll(`.itemline`).forEach(element => {
+				element.style.display = element.style.display = 'None';
+			});
+			document.querySelectorAll(`.itemline.${className}`).forEach(element => {
+				element.style.display = element.style.display = '';
+			});
+			document.querySelectorAll(`#toggleButtons button`).forEach(element => {
+				element.style.opacity = 0.5;
+			});
+			document.querySelectorAll(`#toggleButtons button.${className}`).forEach(element => {
+				element.style.opacity = 1;
+			});
+		});
+	});
+	document.querySelectorAll('.copyButton').forEach(button => {
+		button.addEventListener('click', function() {
+			const textToCopy = this.getAttribute('copytext');
+			navigator.clipboard.writeText(textToCopy).then(function() {
+				alert(textToCopy+' copied to clipboard');
+			}, function(err) {
+				alert('Failed to copy text: ', err);
+			});
+		});
+	});
    </script>
    <ul class="table" id="tea_list">
     <li class="itemline all seasonal_limit_item seasonal_item">
