@@ -287,16 +287,22 @@
 			});
 		});
 	});
-	document.querySelectorAll('.copyButton').forEach(button => {
-		button.addEventListener('click', function() {
-			const textToCopy = this.getAttribute('copytext');
-			navigator.clipboard.writeText(textToCopy).then(function() {
-				alert(textToCopy+' copied to clipboard');
-			}, function(err) {
-				alert('Failed to copy text: ', err);
-			});
-		});
-	});
+document.addEventListener('DOMContentLoaded', (event) => {
+    document.querySelectorAll('.copyButton').forEach(button => {
+        button.addEventListener('click', function() {
+            const textToCopy = this.getAttribute('copytext');
+            if (textToCopy) {
+                navigator.clipboard.writeText(textToCopy).then(() => {
+                    alert(textToCopy + ' copied to clipboard');
+                }).catch(err => {
+                    alert('Failed to copy text: ' + err);
+                });
+            } else {
+                alert('No text to copy!');
+            }
+        });
+    });
+});
    </script>
    <ul class="table" id="tea_list">
     <li class="itemline all seasonal_limit_item seasonal_item">
