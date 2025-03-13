@@ -293,9 +293,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
             const textToCopy = this.getAttribute('copytext');
             if (textToCopy) {
                 navigator.clipboard.writeText(textToCopy).then(() => {
-                    alert(textToCopy + ' copied to clipboard');
+                    alert(textToCopy + ' 복사되었습니다');
                 }).catch(err => {
-                    alert('Failed to copy text: ' + err);
+                    alert('복사에 실패했습니다' + err);
                 });
             } else {
                 alert('No text to copy!');
