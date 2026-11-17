@@ -1,0 +1,425 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+
+<title>404 ERROR | LUPICIA ONLINE STORE - 世界のお茶専門店 ルピシア ～紅茶・緑茶・烏龍茶・ハーブ～</title>
+
+
+<meta name="description" content="紅茶・緑茶・烏龍茶など世界のお茶をご紹介する通販サイト、ルピシア・オンラインストア。数百種類以上の茶葉だけでなく、ティーバック、お菓子やポット、またギフトセットなど、お茶に関する様々な商品を扱っていま">
+<meta name="keywords" content=",お茶専門店,紅茶専門店,緑茶専門店,紅茶・緑茶専門店,通信販売,通販,オンラインストア,ネットショップ,グルマン,gourmand,ルピシア,lupicia">
+
+<meta name="author" content="LUPICIA">
+
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="content-script-type" content="text/javascript">
+
+<!-- fonts -->
+<link href="//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<!--link href="//fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css" -->
+
+<!-- icons -->
+<link rel="stylesheet" href="/css/vendor/ionicons.min.css">
+
+<!-- slider -->
+<link rel="stylesheet" href="/css/vendor/slick/slick.css">
+<link rel="stylesheet" href="/css/vendor/slick/slick-theme.css">
+
+<!-- modal -->
+<link rel="stylesheet" href="/css/vendor/magnific-popup.css">
+
+<!-- styles -->
+<link rel="stylesheet" href="/custom/css/style.css">
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/store_ver20171120.css">
+
+<link rel="stylesheet" href="/css/vendor/naviplus_suggest.css" crossorigin>
+
+<!-- jquery -->
+<script src="/js/vendor/jquery-1.11.2.min.js"></script>
+
+<!-- common js -->
+<script src="/js/functions.js"></script>
+
+<!-- by brand -->
+<link href="/lupicia.ico" rel="shortcut icon">
+<link rel="stylesheet" href="/css/whole.css">
+
+
+<!--[if lte IE 9]>
+<link rel="stylesheet" href="/css/store_ie8.css">
+
+<![endif]-->
+
+
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-WVQKJN3':true});</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-4960831-3', 'auto');
+  ga('require', 'displayfeatures');
+  ga('require', 'linkid', 'linkid.js');
+  ga('require', 'GTM-WVQKJN3');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+<!--
+
+-->
+<script type="text/javascript" src="//r3.snva.jp/javascripts/reco/2/sna.js?k=E0WIqNfNkBoJi"></script>
+</head>
+<body >
+
+<div class="wrapper_">
+
+<section>
+<div class="area_modesp">
+
+<a href="?mode_pc=0" class="btn_common btn_modesp"><i class="ion-android-phone-portrait ic_before"></i>スマートフォンサイトはこちら</a>
+
+</div>
+</section>
+
+<!------------ topbar start ------------>
+<section>
+<div class="area_topbar" style="height:5px;">
+</div>
+</section>
+<!------------ topbar end ------------>
+
+
+<!------------ header start ------------>
+<header>
+<div id="header">
+
+<div class="inner">
+	
+
+	<nav>
+	<ul id="nav_site" class="side_l">
+		<li><a href="/" id="nav_site_top" class="nav_site_each"><i id="ic_site_top" class="ion-ios-home ic_before"></i>Home</a></li>
+		<li class="comment_area"><a href="/shop/lp.aspx" id="nav_site_lupicia" class="nav_site_each"><img src="/img/logo_lupicia_hl.svg" alt="LUPICIA" title="ルピシア オンラインストア" width="100"></a>
+				<div class="comment_area_inner">
+					<div class="comment_area_content">
+					<div class="col">
+						<a href="/shop/lp.aspx"><div class="col_l"><img src="/img/mouseover_area_thum.jpg" alt=""></div>
+						<div class="col_r">
+							<p class="lead">ルピシア オンラインストア</p>
+							<p>
+								紅茶・緑茶・烏龍茶など世界のお茶をご紹介する通販サイト、ルピシア・オンラインストア。数百種類以上の茶葉だけでなく、ティーバック、お菓子やポット、またギフトセットなど、お茶に関する様々な商品を扱っています。
+							</p>
+						</div></a>
+					</div>
+					<div>
+						<p class="lead category">商品カテゴリ</p>
+						<p class="category"><a href="/shop/goods/search.aspx?s_brand=9&keyword=&search.x=1"><img src="/img/mouseover_area_link.jpg" alt="条件を指定して探す"></a></p>
+						<ul class="category_btn">
+							<li><a href="/shop/c/c10"><img src="/img/mouseover_area_btn01.gif" alt="お茶"></a></li>
+							<li><a href="/shop/c/c20"><img src="/img/mouseover_area_btn02.gif" alt="ギフト"></a></li>
+							<li><a href="/shop/c/c30"><img src="/img/mouseover_area_btn03.gif" alt="お菓子・食品・飲料"></a></li>
+							<li><a href="/shop/c/c40"><img src="/img/mouseover_area_btn04.gif" alt="茶器・雑貨"></a></li>
+							<li><a href="/shop/c/c50"><img src="/img/mouseover_area_btn05.gif" alt="特別商品・お取り寄せ"></a></li>
+							<li><a href="/shop/c/c51"><img src="/img/mouseover_area_btn06.gif" alt="お買い得商品"></a></li>
+						</ul>
+					</div>
+					</div>
+				</div>
+		</li>
+		<li class="comment_area_gr"><a href="/shop/gr.aspx" id="nav_site_gourmand" class="nav_site_each"><img src="/img/logo_gourmand_hl.svg" alt="gourmand" title="グルマン オンラインストア"></a>
+				<div class="comment_area_inner_gr">
+					<div class="comment_area_content">
+					<div class="col">
+						<a href="/shop/gr.aspx"><div class="col_l"><img src="/img/mouseover_area_thum_gr.jpg" alt=""></div>
+						<div class="col_r">
+							<p class="lead_gr">ルピシア グルマン オンラインストア</p>
+							<p>
+								世界のお茶専門店 ルピシアがプロデュースする「ルピシアグルマン」は、「おいしいものが何よりも大好き」という食いしん坊のための食のセレクトショップです。<br>
+								ルピシアがお届けする食のワンダーランドをぜひお楽しみください。
+							</p>
+						</div></a>
+					</div>
+					<div>
+						<p class="lead_gr category">おいしいものが集まるところ ヴィラ ルピシア</p>
+						<p class="category"><a href="/shop/goods/search_gr.aspx?s_brand=1&keyword=&search.x=1"><img src="/img/mouseover_area_link_gr.jpg" alt="条件を指定して探す"></a></p>
+						<ul class="category_btn">
+							<li><a href="/shop/c/c706060"><img src="/img/mouseover_area_btn01_gr.gif" alt="新商品"></a></li>
+							<li><a href="/shop/c/c706040"><img src="/img/mouseover_area_btn02_gr.gif" alt="スープ"></a></li>
+							<li><a href="/shop/c/c706090"><img src="/img/mouseover_area_btn12_gr.gif" alt="カレー"></a></li>
+							<li><a href="/shop/c/c706010"><img src="/img/mouseover_area_btn05_gr.gif" alt="調味料"></a></li>
+							<li><a href="/shop/c/c706070"><img src="/img/mouseover_area_btn06_gr.gif" alt="惣菜"></a></li>
+							<li><a href="/shop/c/c706050"><img src="/img/mouseover_area_btn13_gr.gif" alt="お菓子"></a></li>
+							<li><a href="/shop/c/c7082"><img src="/img/mouseover_area_btn14_gr.gif" alt="冷凍食品のセット"></a></li>
+							<!--li><a href="/shop/c/c706030"><img src="/img/mouseover_area_btn03_gr.gif" alt="燻製品（フュメアポワン）"></a></li-->
+							<!--li><a href="/shop/c/c706020"><img src="/img/mouseover_area_btn04_gr.gif" alt="肉加工品（シャルキュトリー）"></a></li-->
+							<!--li><a href="/shop/c/c706080"><img src="/img/mouseover_area_btn07_gr.gif" alt="パン"></a></li-->
+							<!--li><a href="/shop/c/c706050"><img src="/img/mouseover_area_btn08_gr.gif" alt="ケーキとお菓子"></a></li-->
+							<li><a href="/shop/goods/search_gr.aspx?s_brand=1&keyword=&search.x=1"><img src="/img/mouseover_area_btn09_gr.gif" alt="すべての商品から探す"></a></li>
+						</ul>
+					</div>
+					<div>
+						<p class="lead_gr category">全国からおいしいお取り寄せ お茶トモ！</p>
+						<p class="category"><a href="/shop/goods/search_gr.aspx?s_brand=1&keyword=&search.x=1"><img src="/img/mouseover_area_link_gr01.jpg" alt="条件を指定して探す"></a></p>
+						<ul class="category_btn">
+							<li><a href="/gourmand/chamis.html"><img src="/img/mouseover_area_btn10_gr.gif" alt="季節のおすすめ"></a></li>
+							<li><a href="/shop/c/c8040/"><img src="/img/mouseover_area_btn15_gr.gif" alt="新商品・人気商品"></a></li>
+							<li><a href="/shop/c/c8050/"><img src="/img/mouseover_area_btn16_gr.gif" alt="洋菓子"></a></li>
+							<li><a href="/shop/c/c8060/"><img src="/img/mouseover_area_btn17_gr.gif" alt="和菓子"></a></li>
+							<li><a href="/shop/c/c8070/"><img src="/img/mouseover_area_btn18_gr.gif" alt="ジャム・はちみつ"></a></li>
+							<li><a href="/shop/c/c8020/"><img src="/img/mouseover_area_btn19_gr.gif" alt="銘菓・逸品のギフト"></a></li>
+							<li><a href="/shop/c/c8080/"><img src="/img/mouseover_area_btn20_gr.gif" alt="お得なセット"></a></li>
+							<!--li><a href="/shop/c/c7080/"><img src="/img/mouseover_area_btn21_gr.gif" alt="ドリンク"></a></li-->
+							<li><a href="/shop/c/c80/"><img src="/img/mouseover_area_btn11_gr.gif" alt="すべての銘菓・逸品"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li><a href="/shop/c/c5020/" id="nav_site_bonmarche" class="nav_site_each"><img src="/img/logo_bonmarche_hl.svg" alt="Bon Marche" title="ボンマルシェ オンラインストア"></a></li>
+	</ul>
+
+	</nav>
+
+	<nav>
+	<ul id="nav_member" class="side_l">
+		<!--li><a href="//www.lupicia.com/shop/pages/guidetop.aspx">初めての方へ</a></li-->
+		<!--li><a href="/shop/customer/menu.aspx">今すぐ登録</a></li-->
+		<li><a href="/shop/customer/menu.aspx">ログイン</a></li>
+		<li><a href="/shop/customer/menu.aspx">マイページ</a></li>
+	</ul>
+
+	</nav>
+
+	<a href="/shop/cart/cart.aspx" id="btn_cart_main" class="btn_green font_ll">カートを確認</a>
+
+	<aside>
+	<ul id="aside_guide" class="side_l">
+		<li><a href="/shop/pages/lp-about.aspx">ルピシアとは</a></li>
+		<li><a href="//www.lupicia.com/shop/pages/products.aspx">商品について</a></li>
+		<li><a href="//www.lupicia.com/shop/pages/guidetop.aspx">ご利用ガイド</a></li>
+		<li><a href="//www.lupicia.com/shop/contact/contact.aspx">お問い合わせ</a></li>
+	</ul>
+
+	</aside>
+
+	<div id="dial_top"><address class="dial_number">0120-11-0383</address></div>
+
+	<p id="attent_shipping" class="catchphrase"><em>ご購入金額￥6,200ごとに1件送料無料</em></p>
+
+</div>
+
+<form action="/shop/goods/search.aspx?s_brand=9" method="post" name="frmSearch" id="area_search">
+<div class="inner">
+<fieldset>
+<div class="search_hl"><a href="/shop/lp.aspx" class="no_underline"><i class="ion-arrow-up-b ic_before"></i>ストアTOPに戻る</a></div>
+
+<div id="box_search_category">
+<select name="tree_0" id="select_category">
+	<option value="">すべてのカテゴリ</option>
+	<option value="10">お茶</option>
+	<option value="20">ギフト</option>
+	<option value="30">お菓子・食品・飲料</option>
+	<option value="40">茶器・雑貨</option>
+	<option value="50">特別商品・お取り寄せ</option>
+	<option value="51">お買い得商品</option>
+</select>
+<span class="ionicon ic_down"></span>
+</div>
+
+<input type="hidden" name="search" value="x">
+<input id="box_search_keyword" type="text"  name="keyword" placeholder="商品名、キーワードなど" autocomplete="off">
+<button type="submit" id="btn_search" class="btn_green">検索</button>
+<button type="submit" id="btn_search_detail" class="btn_white">詳細検索</button>
+
+</fieldset>
+</div>
+</form>
+
+</div>
+</header>
+<!------------ header end ------------>
+
+
+
+<!-- Rendering BodyContents Start -->
+<div class="container_">
+<div class="container_inner_">
+
+<div class="info_">
+	お探しのページがみつかりません。<br>ページが削除されたか、移動された可能性があります。
+</div>
+
+</div>
+</div>
+<!-- Rendering BodyContents End -->
+
+
+
+
+<!------------ footer start ------------>
+<footer>
+<div id="footer" style="border:none;">
+
+<aside>
+<div id="aside_categorymap">
+<div class="inner">
+
+<div class="categorymap_each">
+<h4 class="categorymap_hl">お茶を探す</h4>
+<ul class="categorymap_list">
+	<li><a href="/shop/pages/genre-tea.aspx.aspx#genre_variation">お茶の種類で選ぶ</a></li>
+	<li><a href="//www.lupicia.com/shop/pages/biginners.aspx">初めての方におすすめ</a></li>
+	<li><a href="/shop/pages/genre-tea.aspx.aspx#genre_season">今が旬・季節のおすすめ</a></li>
+	<li><a href="/shop/pages/genre-tea.aspx.aspx#genre_fravor">お茶の香り・ブレンド</a></li>
+	<li><a href="/shop/pages/genre-tea.aspx.aspx#genre_style">おすすめの飲み方から探す</a></li>
+	<li><a href="/shop/pages/genre-tea.aspx.aspx#genre_plantation">世界のお茶産地から探す</a></li>
+	<li><a href="/shop/pages/genre-tea.aspx.aspx#genre_packtype">ティーバッグ・缶入から探す</a></li>
+
+</ul>
+</div>
+
+
+<div class="categorymap_each">
+<h4 class="categorymap_hl">ギフトを選ぶ</h4>
+<ul class="categorymap_list">
+	<li><a href="/shop/c/c20/">ギフトの種類で選ぶ</a></li>
+	<li><a href="/shop/c/c2010/">季節の贈りもの</a></li>
+	<li><a href="http://www.lupicia.com/belle-epoque/">ギフトセレクション</a></li>
+</ul>
+</div>
+
+
+<div class="categorymap_each">
+<h4 class="categorymap_hl">お菓子・食品・飲料</h4>
+<ul class="categorymap_list">
+	<li><a href="/shop/c/c30">オリジナルスイーツ</a></li>
+	<li><a href="/gourmand/chamis.html">季節のおすすめ（お茶トモ！～Ch'amis～）</a></li>
+	<li><a href="/gourmand/gourmand.html">北海道 ヴィラルピシア（グルマン通信）</a></li>
+</ul>
+</div>
+
+
+<div id="categorymap_teaware" class="categorymap_each">
+<h4 class="categorymap_hl">茶器・グッズ</h4>
+<ul class="categorymap_list">
+	<li><a href="/shop/c/c40/">茶器・グッズの種類で選ぶ</a></li>
+</ul>
+</div>
+
+</div>
+</div>
+</aside>
+
+
+<aside>
+<ul id="aside_policy">
+	<li class="policy_each"><a href="/shop/pages/display.aspx">特定商法に基づく表記</a></li>
+	<li class="policy_each"><a href="/shop/pages/license.aspx">利用規約</a></li>
+	<li class="policy_each"><a href="/shop/pages/seconduse.aspx">商標・著作物の二次使用について</a></li>
+	<li class="policy_each"><a href="/shop/pages/policy.aspx">プライバシーポリシー</a></li>
+	<li class="policy_each"><a href="/shop/contact/contact.aspx">お問い合わせ</a></li>
+	<li class="policy_each"><a href="/voice/">お客様の声</a></li>
+
+</ul>
+</aside>
+
+
+<aside>
+<div id="aside_official">
+<div class="inner">
+
+<ul id="aside_corporate" class="side_l adj_l">
+	<li><a href="/" class="corporate_each"><i id="ic_site_top" class="ion-ios-home ic_before"></i>Home</a></li>
+	<li><a href="//www.lupicia.co.jp/information/" class="corporate_each" target="_blank">ルピシア会社案内</a></li>
+	<li><a href="//www.lupicia.co.jp/press/" class="corporate_each" target="_blank">プレスリリース</a></li>
+	<li><a href="//www.lupicia.co.jp/recruit/" class="corporate_each" target="_blank">採用情報</a></li>
+	<li><a href="//www.lupicia.co.jp/shop/" class="corporate_each" target="_blank">店舗のご案内</a></li>
+	<li><a href="//www.lupicia.co.jp/business/" class="corporate_each" target="_blank">ビジネス・卸売</a></li>
+
+</ul>
+
+<dl id="aside_sns" class="side_l adj_r">
+	<dt class="sns_title">LUPICIA SNS：</dt>
+	<dd><a href="//www.facebook.com/lupicia.jp" class="sns_each" target="_blank"><img src="/img/ic_facebook.png" alt="LUPICIA facebook 公式ファンページ" title="LUPICIA facebook 公式ファンページ"></a></dd>
+	<dd><a href="//twitter.com/LUPICIA_jp" class="sns_each" target="_blank"><img src="/img/ic_twitter.png" alt="LUPICIA twitter 公式ファンページ" title="LUPICIA twitter 公式ファンページ"></a></dd>
+	<dd><a href="//www.instagram.com/lupicia_japan/" class="sns_each" target="_blank"><img src="/img/ic_instagram.png" alt="LUPICIA instagram 公式ファンページ" title="LUPICIA instagram 公式ファンページ"></a></dd>
+
+</dl>
+
+</div>
+</div>
+</aside>
+
+
+<aside>
+<dl id="aside_global" class="side_l">
+	<dt class="global_title global_each">LUPICIA GLOBAL：<br>海外のルピシア</dt>
+	<dd class="global_each"><a href="/" target="_blank"><img src="/img/flg_ja.png" alt="LUPICIA JAPAN" title="LUPICIA JAPAN"></a></dd>
+	<dd class="global_each"><a href="//usa.lupicia.com/" target="_blank"><img src="/img/flg_us.png" alt="LUPICIA USA" title="LUPICIA USA"></a></dd>
+	<dd class="global_each"><a href="//www.lupicia.fr/" target="_blank"><img src="/img/flg_fr.png" alt="LUPICIA France" title="LUPICIA France"></a></dd>
+	<dd class="global_each"><a href="//www.lupicia.com.tw/" target="_blank"><img src="/img/flg_tw.png" alt="LUPICIA Taiwan" title="LUPICIA Taiwan"></a></dd>
+	<dd class="global_each"><a href="//www.lupicia.com.au/" target="_blank"><img src="/img/flg_au.png" alt="LUPICIA Australia" title="LUPICIA Australia"></a></dd>
+
+</dl>
+</aside>
+
+
+<div id="link_ptop"><a href="#"><i class="ion-arrow-up-b"></i></a></div>
+<small id="copyright">&copy; LUPICIA CO., LTD.</small>
+
+</div>
+</footer>
+<!------------ footer end ------------>
+
+
+
+<!-- vendor -->
+<script src="/js/vendor/jquery.cookie.js"></script>
+<script src="/js/vendor/slick.min.js"></script>
+<script src="/js/vendor/jquery.tile.min.js"></script>
+<script src="/js/vendor/jquery.magnific-popup.min.js"></script>
+
+<!-- facebook code -->
+<div id="fb-root"></div>
+<!--script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.8";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script-->
+
+<!--twitter code -->
+<!--script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script-->
+
+<!--suggest code -->
+<script src="//std3f-s.snva.jp/js/naviplus_suggestitem_view.js" charset="UTF-8"></script>
+<script src="//std3f-s.snva.jp/js/naviplus_suggest.js" charset="UTF-8"></script>
+
+
+<!-- custom js -->
+<script src="/custom/js/common.js"></script>
+<script src="/js/store_ver20180323.js"></script>
+
+
+<!--[if lte IE 8]>
+<script src="/js/store_ie8.js"></script>
+
+<![endif]-->
+
+</div>
+</body>
+</html>
+
